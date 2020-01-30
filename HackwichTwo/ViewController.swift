@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var FirstLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,6 +23,8 @@ class ViewController: UIViewController {
   print("Hello World Part 2")  }
     @IBAction func ChangeColor(_ sender: Any) {
  
-        self.view.backgroundColor = UIColor.blue   }
+        self.view.backgroundColor = UIColor.blue
+        self.FirstLabel.text = "Hello World"
+    }
 }
 
