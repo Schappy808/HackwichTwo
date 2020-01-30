@@ -20,5 +20,8 @@ class ViewController: UIViewController {
   print("Hello World")  }
     @IBAction func button2ispressed(_ sender: Any) {
   print("Hello World Part 2")  }
+    @IBAction func ChangeColor(_ sender: Any) {
+ 
+        self.view.backgroundColor = UIColor.blue   }
 }
 
