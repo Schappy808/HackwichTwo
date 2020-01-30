@@ -16,5 +16,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func pressmebuttonispressed(_ sender: Any) {
+  print("Hello World")  }
+    @IBAction func button2ispressed(_ sender: Any) {
+  print("Hello World Part 2")  }
 }
 
